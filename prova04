@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 04</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: ghostwhite;   
+}
+
+header {
+    align-items: center;
+    text-align: center;
+
+    color: green;
+    background-color: ghostwhite;
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+.pos {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.palm {
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    border: 4px solid #111;
+    box-shadow: 4px 4px 12px #aaaa;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+.palm img {
+    max-width: 100px; max-height: 100px;
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+    <h1>Os quatro primeiros times do brasileirão - Temporada 2022</h1>
+</header>
+
+<div class="tudo">
+    <section>
+        <div class="palm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg" alt="">
+            <h1 class="pos">1º lugar</h1>
+            <h1>Palmeiras</h1><br>
+            <h2>Criando em São Paulo, seu estádio é o Alliaz Parque e o time é tricampeão do campeonato paulista.</h2>
+        </div>
+    </section>
+    <section>
+        <div class="palm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg" alt="">
+            <h1 class="pos">2º lugar</h1>
+            <h1>Internacional</h1><br>
+            <h2>Criando no Rio Grande do Sul, seu estádio é o Beira-Rio e foi o primeiro time do sul do Brasil a ser campeão brasileiro.</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="palm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Fluminense_FC_escudo.png" alt="">
+            <h1 class="pos">3º lugar</h1>
+            <h1>Fluminense</h1><br>
+            <h2>Criado no Rio de Janeiro, seu estádio é o Laranjeiras e é o único clube da América Latina que detém a Taça Olímpica.</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="palm">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png" alt="">
+            <h1 class="pos">4º lugar</h1>
+            <h1>Corinthians</h1><br>
+            <h2>Criando em São Paulo, seu estádio é a Neo Química Arena e o time viveu por quatro anos sem ter um escudo.</h2>
+        </div>
+    </section>
+    </section>
+</div>
+</body>
+</html>
